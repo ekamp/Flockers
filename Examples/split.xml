@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- Test file: Flocker Project, Case 6 -->
+<!-- Three boids go around an obstacle to reach a light -->
+
+<world xmlns="http://perceptualscience.rutgers.edu/flocking"
+   width="500" height="500" time="100" debug="true">
+   <defaults>
+     <flocker debug="false" 
+              light="true" clear="true" evade="true" align="true" center="true" 
+              />
+   </defaults>
+      <flocker x="100" y="40" heading="0" />
+   <flocker x="100" y="80" heading="0" />
+   <flocker x="100" y="120" heading="0" />
+   <flocker x="100" y="160" heading="0" />
+      <flocker x="100" y="200" heading="0" />
+     <rock x="170" y="80" />
+    <rock x="170" y="90" />
+   <rock x="170" y="100" />
+   <rock x="170" y="110" />
+    <rock x="170" y="120" />
+    
+      <rock x="400" y="70" />
+    <rock x="400" y="80" />
+    <rock x="400" y="90" />
+   <rock x="400" y="100" />
+   <rock x="400" y="110" />
+    <rock x="400" y="120" />
+   <rock x="400" y="130" />
+    <rock x="400" y="140" />
+    <rock x="400" y="150" />
+    
+   
+   <light x="350" y="100" />
+</world>

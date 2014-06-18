@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<!-- Pacman simulation
+- Yellow flocker is Pacman
+- Pink flocker is Mrs.Pacman
+- Ghosts are in the center at the beginning and are not yellow or pink
+	- Ghosts are also predators
+
+- Pacman's goal is to get the 4 lights on either side of the map and Mrs.Pacman is chasing him down
+- If he gets caught by the ghosts he dies :(
+  -->
+
+
+<world xmlns="http://perceptualscience.rutgers.edu/flocking"
+   width="500" height="500" time="100" debug="true">
+   
+ 
+
+  <!-- inner container for ghosts --> 
+   <rock x="220" y="300" />
+   <rock x="230" y="300" />
+   <rock x="310" y="300" />
+   <rock x="320" y="300" />
+   
+   
+   <rock x="320" y="290" />
+   <rock x="320" y="280" />
+   <rock x="320" y="270" />
+   <rock x="320" y="260" />
+   <rock x="320" y="250" />
+   <rock x="320" y="240" />
+   <rock x="320" y="230" />
+   <rock x="320" y="220" />
+   <rock x="320" y="210" />
+   <rock x="320" y="200" />
+   
+   <rock x="220" y="200" />
+   <rock x="230" y="200" />
+   <rock x="240" y="200" />
+   <rock x="250" y="200" />
+   <rock x="260" y="200" />
+   <rock x="270" y="200" />
+   <rock x="280" y="200" />
+   <rock x="290" y="200" />
+   <rock x="300" y="200" />
+   <rock x="310" y="200" />
+   <rock x="320" y="200" />
+   
+   <rock x="320" y="290" />
+   <rock x="320" y="280" />
+   <rock x="320" y="270" />
+   <rock x="320" y="260" />
+   <rock x="320" y="250" />
+   <rock x="320" y="240" />
+   <rock x="320" y="230" />
+   <rock x="320" y="220" />
+   <rock x="320" y="210" />
+   <rock x="320" y="200" />
+   
+   
+   <rock x="220" y="290" />
+   <rock x="220" y="280" />
+   <rock x="220" y="270" />
+   <rock x="220" y="260" />
+   <rock x="220" y="250" />
+   <rock x="220" y="240" />
+   <rock x="220" y="230" />
+   <rock x="220" y="220" />
+   <rock x="220" y="210" />
+   <rock x="220" y="200" />
+   
+ <!-- inner container for ghosts END --> 
+   
+   
+   <!-- GHOSTS -->
+   
+   <model-predator x="250" y="250" heading="80" r="0" g="0" b="0"/>
+   <model-predator x="270" y="250" heading="80" r="127" g="255" b="0" />
+   <model-predator x="290" y="250" heading="80" r="0" g="100" b="0" />  
+   <model-predator x="300" y="250" heading="80" r="255" g="165" b="0" />  
+   
+   <!-- END GHOSTS -->
+   
+  <!-- inner container for all Start --> 
+  
+   <rock x="10" y="10" />
+   <rock x="20" y="10" />
+   <rock x="30" y="10" />
+   <rock x="40" y="10" />
+   <rock x="50" y="10" />
+   <rock x="60" y="10" />
+   <rock x="70" y="10" />
+   <rock x="130" y="10" />
+   <rock x="140" y="10" />
+   <rock x="150" y="10" />
+   <rock x="160" y="10" />
+   <rock x="170" y="10" />
+   <rock x="180" y="10" />
+   <rock x="190" y="10" />
+   <rock x="200" y="10" />
+   <rock x="210" y="10" />
+   <rock x="220" y="10" />
+   <rock x="230" y="10" />
+   <rock x="240" y="10" />
+   <rock x="250" y="10" />
+   <rock x="260" y="10" />
+   <rock x="270" y="10" />
+   <rock x="280" y="10" />
+   <rock x="290" y="10" />
+   <rock x="300" y="10" />
+   <rock x="310" y="10" />
+   <rock x="320" y="10" />
+   <rock x="330" y="10" />
+   <rock x="340" y="10" />
+   <rock x="350" y="10" />
+   <rock x="360" y="10" />
+   <rock x="370" y="10" />
+   <rock x="380" y="10" />
+   <rock x="390" y="10" />
+   <rock x="400" y="10" />
+   <rock x="440" y="10" />
+   <rock x="450" y="10" />
+   <rock x="460" y="10" />
+   <rock x="470" y="10" />
+   <rock x="480" y="10" />
+   <rock x="490" y="10" />
+   <rock x="500" y="10" />
+   
+   
+   
+   <rock x="10" y="500" />
+   <rock x="20" y="500" />
+   <rock x="30" y="500" />
+   <rock x="40" y="500" />
+   <rock x="50" y="500" />
+   <rock x="60" y="500" />
+   <rock x="70" y="500" />
+   <rock x="120" y="500" />
+   <rock x="130" y="500" />
+   <rock x="140" y="500" />
+   <rock x="150" y="500" />
+   <rock x="160" y="500" />
+   <rock x="170" y="500" />
+   <rock x="180" y="500" />
+   <rock x="190" y="500" />
+   <rock x="200" y="500" />
+   <rock x="210" y="500" />
+   <rock x="220" y="500" />
+   <rock x="230" y="500" />
+   <rock x="240" y="500" />
+   <rock x="250" y="500" />
+   <rock x="260" y="500" />
+   <rock x="270" y="500" />
+   <rock x="280" y="500" />
+   <rock x="290" y="500" />
+   <rock x="300" y="500" />
+   <rock x="310" y="500" />
+   <rock x="320" y="500" />
+   <rock x="330" y="500" />
+   <rock x="340" y="500" />
+   <rock x="350" y="500" />
+   <rock x="360" y="500" />
+   <rock x="370" y="500" />
+   <rock x="380" y="500" />
+   <rock x="390" y="500" />
+   <rock x="400" y="500" />
+   <rock x="440" y="500" />
+   <rock x="450" y="500" />
+   <rock x="460" y="500" />
+   <rock x="470" y="500" />
+   <rock x="480" y="500" />
+   <rock x="490" y="500" />
+   <rock x="500" y="500" />
+   
+
+   
+   <rock x="10" y="20" />
+   <rock x="10" y="30" />
+   <rock x="10" y="40" />
+   <rock x="10" y="50" />
+   <rock x="10" y="60" />
+   <rock x="10" y="70" />
+   <rock x="10" y="80" />
+   <rock x="10" y="90" />
+   <rock x="10" y="100" />
+   <rock x="10" y="110" />
+   <rock x="10" y="120" />
+   <rock x="10" y="130" />
+   <rock x="10" y="140" />
+   <rock x="10" y="150" />
+   <rock x="10" y="160" />
+   <rock x="10" y="170" />
+   <rock x="10" y="180" />
+   <rock x="10" y="190" />
+   <rock x="10" y="200" />
+   <rock x="10" y="210" />
+   <rock x="10" y="220" />
+   <rock x="10" y="230" />
+   <rock x="10" y="240" />
+   <rock x="10" y="250" />
+   <rock x="10" y="260" />
+   <rock x="10" y="270" />
+   <rock x="10" y="280" />
+   <rock x="10" y="290" />
+   <rock x="10" y="300" />
+   <rock x="10" y="310" />
+   <rock x="10" y="320" />
+   <rock x="10" y="330" />
+   <rock x="10" y="340" />
+   <rock x="10" y="350" />
+   <rock x="10" y="360" />
+   <rock x="10" y="370" />
+   <rock x="10" y="380" />
+   <rock x="10" y="390" />
+   <rock x="10" y="400" />
+   <rock x="10" y="440" />
+   <rock x="10" y="450" />
+   <rock x="10" y="460" />
+   <rock x="10" y="470" />
+   <rock x="10" y="480" />
+   <rock x="10" y="490" />
+   <rock x="10" y="500" />
+   
+   
+   
+   <rock x="500" y="20" />
+   <rock x="500" y="30" />
+   <rock x="500" y="40" />
+   <rock x="500" y="50" />
+   <rock x="500" y="60" />
+   <rock x="500" y="70" />
+   <rock x="500" y="80" />
+   <rock x="500" y="90" />
+   <rock x="500" y="100" />
+   <rock x="500" y="110" />
+   <rock x="500" y="120" />
+   <rock x="500" y="130" />
+   <rock x="500" y="140" />
+   <rock x="500" y="150" />
+   <rock x="500" y="160" />
+   <rock x="500" y="170" />
+   <rock x="500" y="180" />
+   <rock x="500" y="190" />
+   <rock x="500" y="200" />
+   <rock x="500" y="210" />
+   <rock x="500" y="220" />
+   <rock x="500" y="230" />
+   <rock x="500" y="240" />
+   <rock x="500" y="250" />
+   <rock x="500" y="260" />
+   <rock x="500" y="270" />
+   <rock x="500" y="280" />
+   <rock x="500" y="290" />
+   <rock x="500" y="300" />
+   <rock x="500" y="310" />
+   <rock x="500" y="320" />
+   <rock x="500" y="330" />
+   <rock x="500" y="340" />
+   <rock x="500" y="350" />
+   <rock x="500" y="360" />
+   <rock x="500" y="370" />
+   <rock x="500" y="380" />
+   <rock x="500" y="390" />
+   <rock x="500" y="400" />
+   <rock x="500" y="440" />
+   <rock x="500" y="450" />
+   <rock x="500" y="460" />
+   <rock x="500" y="470" />
+   <rock x="500" y="480" />
+   <rock x="500" y="490" />
+   <rock x="500" y="500" />
+
+   <!-- outter container End --> 
+   
+   
+    <light x="80" y="90" />
+    <light x="80" y="420" />
+    <light x="420" y="420" />
+	<light x="420" y="80" />   
+   
+	<!-- PACMAN!!! -->
+        <flocker debug="false" x="200" y="460" heading="180"  light="true" clear="true" evade="true" align="false" center="false" forwardMax="10.0" backwardMax="0.0" accelMax="30.0" decelMax="20.0" maxTurn="1000.0" r="255" g="237" b="70" detection="300.0" lw="20.0" />
+ <!-- Mrs.Pacman <33333 -->
+        <flocker debug="false" x="200" y="420" heading="180"  light="true" clear="true" evade="true" align="true" center="true" forwardMax="10.0" backwardMax="0.0" accelMax="30.0" decelMax="20.0" maxTurn="1000.0" r="255" g="105" b="180" detection="300.0" lw="20.0" />
+  
+   
+ 
+   
+
+</world>
+
+
+
+
